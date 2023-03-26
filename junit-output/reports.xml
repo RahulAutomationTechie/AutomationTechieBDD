@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="41.414">
+    <testcase classname="To test ORG HRM" name="To test login page" time="13.375">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+When User enters "Admin" and "admin123".....................................passed
+Then User is logged In successfully.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test ORG HRM" name="To test login page 2" time="13.721">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+When User enters "hrm" and "hrm@987"........................................passed
+Then User is logged In successfully.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test ORG HRM" name="To test login page 3" time="14.043">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+When User enters "org" and "org%123"........................................passed
+Then User is logged In successfully.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,580 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on login",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_is_on_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-26T06:40:37.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1993200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "test login",
+        "description": "",
+        "id": "test-guru99;test-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"stepDefinitions.stepDemo2.driver\" is null\r\n\tat stepDefinitions.stepDemo2.user_enters_valid_creds(stepDemo2.java:52)\r\n\tat ✽.user enters valid creds(file:///C:/Users/Rahul%20Kakade/eclipse-workspace/AutomationTechieBDD/TestFeatures/Demo2.feature:8)\r\n",
+              "duration": 5630600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters valid creds",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_enters_valid_creds()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 992700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user is able to login",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 996400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on login",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_is_on_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-26T06:40:37.640Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "test payment gateway",
+        "description": "",
+        "id": "test-guru99;test-payment-gateway",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user clicks on payment link",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_clicks_on_payment_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user lands on payment page",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_lands_on_payment_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on login",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_is_on_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-26T06:40:37.646Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "test registration",
+        "description": "",
+        "id": "test-guru99;test-registration",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "user clicks on payment link",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_clicks_on_payment_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "user lands on payment page",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_lands_on_payment_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 995700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on login",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_is_on_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-26T06:40:37.653Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "test personal info",
+        "description": "",
+        "id": "test-guru99;test-personal-info",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDemo2.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "user clicks on payment link",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_clicks_on_payment_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.setup2()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "user lands on payment page",
+            "match": {
+              "location": "stepDefinitions.stepDemo2.user_lands_on_payment_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.stepDemo2.tearDown2()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Test guru99",
+    "description": "",
+    "id": "test-guru99",
+    "keyword": "Feature",
+    "uri": "file:TestFeatures/Demo2.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.292">
+    <testcase classname="Test guru99" name="test login" time="0.075">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;stepDefinitions.stepDemo2.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user is on login......................................................passed
+When user enters valid creds................................................failed
+Then user is able to login..................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinitions.stepDemo2.driver" is null
+	at stepDefinitions.stepDemo2.user_enters_valid_creds(stepDemo2.java:52)
+	at ✽.user enters valid creds(file:///C:/Users/Rahul%20Kakade/eclipse-workspace/AutomationTechieBDD/TestFeatures/Demo2.feature:8)
+]]></failure>
+    </testcase>
+    <testcase classname="Test guru99" name="test payment gateway" time="0.002">
+        <system-out><![CDATA[Given user is on login......................................................passed
+When user clicks on payment link............................................passed
+Then user lands on payment page.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test guru99" name="test registration" time="0.003">
+        <system-out><![CDATA[Given user is on login......................................................passed
+When user clicks on payment link............................................passed
+Then user lands on payment page.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test guru99" name="test personal info" time="0.003">
+        <system-out><![CDATA[Given user is on login......................................................passed
+When user clicks on payment link............................................passed
+Then user lands on payment page.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
